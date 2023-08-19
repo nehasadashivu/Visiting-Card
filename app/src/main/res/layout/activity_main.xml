@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="205dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="203dp"
+            android:layout_marginBottom="66dp"
+            android:text="Google"
+            android:textColor="#530C0C"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="179dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="227dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/download" />
+
+
+    </RelativeLayout>
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Neha S"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#350505"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="SOFTWARE ENGINEERING"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#350505"
+        android:textSize="20sp" />
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/black"/> >
+
+    <TextView
+    android:id="@+id/editTextText2"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:ems="10"
+    android:inputType="text"
+    android:text="7022440112"
+    android:textAlignment="center"
+    android:textAllCaps="false"
+    android:textColor="#350505"
+    android:textSize="20sp" />
+    <TextView
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="SHIVANI THARIKERE(TQ)"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#350505"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="nehasadashivappa2002@gmail.com"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#350505"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
